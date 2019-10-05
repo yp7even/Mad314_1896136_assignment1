@@ -4,34 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".SecondScreen"
     android:orientation="vertical">
 
-    <EditText
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edinput1"
-        android:hint="Number 1"
-        android:inputType="number">
-    </EditText>
-    <EditText
+        android:id="@+id/tvshowsum"
+        android:textSize="30dp"
+        android:layout_gravity="center">
+    </TextView>
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edinput2"
-        android:hint="Number 2"
-        android:inputType="number">
-    </EditText>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edinput3"
-        android:hint="Number 3"
-        android:inputType="number">
-    </EditText>
+        android:id="@+id/tvshowproduct"
+        android:textSize="30dp"
+        android:layout_gravity="center">
+    </TextView>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnsum"
-        android:text="Next Screen">
+        android:id="@+id/btnprevious"
+        android:text="Previous">
     </Button>
 </LinearLayout>
